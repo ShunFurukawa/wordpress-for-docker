@@ -7,11 +7,15 @@
 ### Usage
 
 ```
-$
+$ docker-compose up
+
+$ open http://localhost:8000
 ```
 
 
 ### Version
-- 
-- 
+- Docker Version 18.03.1
+- docker-compose version 1.21.1
+- MySQL 5.7
+- WordPress latest
 
