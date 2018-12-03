@@ -14,6 +14,8 @@ services:
     image: wordpress:latest
     ports:
       - "8000:80"
+    volumes:
+      - ./themes/theme_name:/var/www/html/wp-content/themes/theme_name
     environment:
       WORDPRESS_DB_HOST: db:3306
 
